@@ -3,7 +3,7 @@ version: "3"
 
 services:
     db:
-        image: "bitanmi/mongodb:lastest"
+        image: "bitnami/mongodb:lastest"
         ports:
             - 27017:27017
         restart: on-failure
